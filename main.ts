@@ -2,10 +2,11 @@
 // Wednesday 18 November 2026's world news as a newspaper front page: a lead story on the
 // US-Iran escalation in the Gulf, Ukraine's second-night strike on the Kerch Bridge, the
 // Xi-Trump-Putin meeting at APEC in Shenzhen, COP31 in Antalya, the Gaza winter crisis,
-// the Ebola outbreak in DR Congo, plus an "Also today" strip. Everything is drawn with
-// code: a tiny embedded 5x7 bitmap font, simple vector shapes, and a hand-rolled PNG
-// encoder (node:zlib only). No network, no clock, no randomness: two runs write the
-// same bytes. Node 22, standard library only.
+// the Ebola outbreak in DR Congo, plus an "Also today" strip — refreshed with the
+// full day's news: the US loses its measles-free status, Nvidia's $116B quarter.
+// Everything is drawn with code: a tiny embedded 5x7 bitmap font, simple vector
+// shapes, and a hand-rolled PNG encoder (node:zlib only). No network, no clock,
+// no randomness: two runs write the same bytes. Node 22, standard library only.
 //
 // Run: mkdir -p out && MAKEFUN_OUTPUT_DIR=out node main.ts
 
@@ -510,10 +511,10 @@ function drawAlsoToday(): void {
   const left: string[] = [
     'CYCLONE XAVIER HITS COOK ISLANDS',
     'PELTOLA WINS ALASKA SENATE SEAT',
-    "PATTINSON NAMED THE NEW JAMES BOND",
+    'US LOSES MEASLES-FREE STATUS',
   ];
   const right: string[] = [
-    'VOYAGER 1 NEARS ONE LIGHT-DAY OUT',
+    'NVIDIA $116B REVENUE, CEO OUT',
     "EISENKOT TO FORM ISRAEL'S NEXT GOVT",
     'RUSSIAN PLANE CRASH IN SIBERIA: 19 DEAD',
   ];

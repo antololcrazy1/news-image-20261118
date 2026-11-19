@@ -20,9 +20,10 @@
 - **Ebola in DR Congo more than doubles** — 5,400 dead; the World Court rules on the
   Myanmar genocide case.
 - **Also today:** Category 5 Cyclone Xavier hits the Cook Islands, Peltola wins the
-  Alaska Senate seat, Pattinson is named the new James Bond, Voyager 1 nears one
-  light-day from Earth, Eisenkot is tapped to form Israel's next government, and a
-  Russian military plane crash in Siberia kills 19.
+  Alaska Senate seat, the US loses its measles-free status after 26 years, Nvidia
+  posts a $116B quarter as its board refuses to reinstate Jensen Huang as CEO,
+  Eisenkot is tapped to form Israel's next government, and a Russian military
+  plane crash in Siberia kills 19.
 
 ## How it works
 
